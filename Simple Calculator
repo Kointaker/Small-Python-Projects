@@ -1,1 +1,11 @@
-# Code to make a calculator app
+# Python code for simple calculator
+operation = int(input("""
+What would you like to do:
+1. Add
+2. Subtract
+3. Divide
+4. Multiply"""))
+
+if operation == 1:
+    amt = int(input("How many numbers? "))
+    
